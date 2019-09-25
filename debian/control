@@ -1,0 +1,12 @@
+Source: ros-kinetic-iiwa-hw
+Section: misc
+Priority: extra
+Maintainer: Salvo Virga <salvo.virga@tum.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-control-toolbox, ros-kinetic-controller-interface, ros-kinetic-controller-manager, ros-kinetic-hardware-interface, ros-kinetic-iiwa-msgs, ros-kinetic-iiwa-ros, ros-kinetic-joint-limits-interface, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-iiwa-hw
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cmake-modules, ros-kinetic-control-toolbox, ros-kinetic-controller-interface, ros-kinetic-controller-manager, ros-kinetic-hardware-interface, ros-kinetic-iiwa-msgs, ros-kinetic-iiwa-ros, ros-kinetic-joint-limits-interface, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf
+Description: The hardware interface to an KUKA LBR IIWA Robot
