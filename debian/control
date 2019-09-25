@@ -1,0 +1,12 @@
+Source: ros-kinetic-iiwa-moveit
+Section: misc
+Priority: extra
+Maintainer: Salvo Virga <salvo.virga@tum.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-iiwa-moveit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-effort-controllers, ros-kinetic-gazebo-ros-control, ros-kinetic-iiwa-description, ros-kinetic-joint-state-controller, ros-kinetic-joint-state-publisher, ros-kinetic-joint-trajectory-controller, ros-kinetic-moveit-fake-controller-manager, ros-kinetic-moveit-planners-ompl, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-moveit-ros-visualization, ros-kinetic-moveit-ros-warehouse, ros-kinetic-moveit-setup-assistant, ros-kinetic-moveit-simple-controller-manager, ros-kinetic-position-controllers, ros-kinetic-robot-state-publisher, ros-kinetic-velocity-controllers, ros-kinetic-xacro
+Description: A package with all the configuration and launch files for using the KUKA LBR IIWA with the MoveIt Motion Planning Framework
