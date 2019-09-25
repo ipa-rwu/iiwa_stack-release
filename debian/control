@@ -1,0 +1,12 @@
+Source: ros-kinetic-iiwa-description
+Section: misc
+Priority: extra
+Maintainer: Salvo Virga <salvo.virga@tum.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-iiwa-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-force-torque-sensor-controller
+Description: This package contains the URDF of the KUKA LBR IIWA robot
